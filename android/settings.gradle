@@ -1,0 +1,3 @@
+// filepath: c:\Users\Dion\HouseWeightCalculator\android\settings.gradle
+rootProject.name = 'HouseWeightCalculator'
+include ':app'
