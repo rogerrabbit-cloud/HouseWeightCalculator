@@ -1,13 +1,11 @@
 // filepath: c:\Users\Dion\HouseWeightCalculator\android\app\src\main\java\com\houseweightcalculator\MainActivity.java
 package com.houseweightcalculator;
 
-import android.os.Bundle;
-import androidx.appcompat.app.AppCompatActivity;
+import com.facebook.react.ReactActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends ReactActivity {
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+    protected String getMainComponentName() {
+        return "HouseWeightCalculator";
     }
 }
